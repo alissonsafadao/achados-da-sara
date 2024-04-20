@@ -28,15 +28,28 @@
             text-decoration: none;
             color: #ff6b81;
         }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 200px;
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>Bem-vindo ao Achados Da Sara!</h1>
+        <h1>Achados Da Sara</h1>
     </div>
     <div class="content">
         <h2>Produtos</h2>
-        <!-- Adicione os produtos aqui -->
+        <div class="products">
+            <!-- Adicione os produtos aqui. Cada produto deve estar dentro de uma div com a classe 'product' -->
+        </div>
 
         <h2>Redes Sociais</h2>
         <div class="socials">
@@ -46,3 +59,4 @@
     </div>
 </body>
 </html>
+
